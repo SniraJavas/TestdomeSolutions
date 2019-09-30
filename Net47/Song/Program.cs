@@ -13,6 +13,7 @@
 ********************************************************************************************************************************************************************************************************/                  
 
 using System;
+using System.Collections.Generic;
 
 public class Song
 {
@@ -26,7 +27,28 @@ public class Song
 
     public bool IsRepeatingPlaylist()
     {
-        throw new InvalidOperationException("Waiting to be implemented.");
+        var isRepeatingPlaylist = false;
+
+        var set = new HashSet<string>();
+        var song = this;
+
+        while (true)
+        {
+            var added = set.Add(song.name);
+            if (!added)
+            {
+                isRepeatingPlaylist = true;
+                break;
+            }
+
+            song = song.NextSong;
+            if (song == null)
+            {
+                break;
+            }
+        }
+
+        return isRepeatingPlaylist;
     }
 
     public static void Main(string[] args)
