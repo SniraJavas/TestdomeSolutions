@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Song", "Net47\Song\Song.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Account", "Net47\Account\Account.csproj", "{FDAC826B-2AB0-40F1-A128-3ED8C5F44001}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountTest", "Net47\AccountTest\AccountTest.csproj", "{1B89C67B-2C3D-472E-B5A4-14E69C0371B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{FDAC826B-2AB0-40F1-A128-3ED8C5F44001}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDAC826B-2AB0-40F1-A128-3ED8C5F44001}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDAC826B-2AB0-40F1-A128-3ED8C5F44001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B89C67B-2C3D-472E-B5A4-14E69C0371B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B89C67B-2C3D-472E-B5A4-14E69C0371B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B89C67B-2C3D-472E-B5A4-14E69C0371B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B89C67B-2C3D-472E-B5A4-14E69C0371B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +78,7 @@ Global
 		{9CE671A5-0197-4AC6-8B52-A508CE16C0F8} = {3C5510A4-0CB3-4BD5-A348-553C08BF7D45}
 		{748515C3-1210-4840-AF89-DF5959CFDE24} = {3C5510A4-0CB3-4BD5-A348-553C08BF7D45}
 		{FDAC826B-2AB0-40F1-A128-3ED8C5F44001} = {3C5510A4-0CB3-4BD5-A348-553C08BF7D45}
+		{1B89C67B-2C3D-472E-B5A4-14E69C0371B1} = {3C5510A4-0CB3-4BD5-A348-553C08BF7D45}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8832C0DA-CBEF-4AD6-8027-2BBE02A30182}
