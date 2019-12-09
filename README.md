@@ -10,5 +10,5 @@ Testdome practice job interview questions solutions
 6. Song               - https://www.testdome.com/questions/c-sharp/song/25559?visibility=1&skillId=18
 7. User Input         - https://www.testdome.com/questions/c-sharp/user-input/11976?visibility=1&skillId=18
 8. Account Test       - https://www.testdome.com/questions/c-sharp/account-test/30738?visibility=1&skillId=18
-9. Two Sum            - Easy  - 30 min  -   0%
+9. Two Sum            - https://www.testdome.com/questions/c-sharp/two-sum/24954?visibility=1&skillId=18
 10. Account           - https://www.testdome.com/questions/c-sharp/account/32673?visibility=1&skillId=18
